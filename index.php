@@ -7,6 +7,6 @@
 	<body>
     	<h1>Dritbra!</h1>
     <p>Trur eg, heilt sikkert..., kanskje, eller?</p>
-    <p>Dette funker faktisk!!</p>
+    <p>Dette funker faktisk, tenk det!!</p>
 	</body>
 </html>
