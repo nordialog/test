@@ -14,7 +14,7 @@ ini_set('display_errors', 1);
         <?php
             use google\appengine\api\cloud_storage\CloudStorageTools;
 $newFileContent = "Jane Doe\n";
-file_put_contents("gs://${ubuntu-storage}/hello.txt", $newFileContent);
+file_put_contents("bucket/hello.txt", $newFileContent);
 ?>
 	</body>
 </html>
