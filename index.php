@@ -13,8 +13,12 @@ ini_set('display_errors', 1);
     <p>Dette funker faktisk, tenk det!!</p>
         <?php
             use google\appengine\api\cloud_storage\CloudStorageTools;
-$newFileContent = "Jane Doe\n";
-file_put_contents("bucket/hello.txt", $newFileContent);
+            $myfile = fopen("bucket/newfile.txt", "w") or die("Unable to open file!");
+$txt = "John Doe\n";
+fwrite($myfile, $txt);
+$txt = "Jane Doe\n";
+fwrite($myfile, $txt);
+fclose($myfile);
 ?>
 	</body>
 </html>
