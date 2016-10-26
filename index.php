@@ -11,12 +11,6 @@ ini_set('display_errors', 1);
     	<h1>Dritbra, der funker det fjell!</h1>
     <p>Trur eg, heilt sikkert..., kanskje, eller?</p>
     <p>Dette funker faktisk, tenk det!!</p>
-        <?php
-            use google\appengine\api\cloud_storage\CloudStorageTools;
-            $newFileContent = "yes, this is good";
-            $fp = fopen("gs://${ubuntu-storage}/hello_stream.txt", 'w');
-fwrite($fp, $newFileContent);
-fclose($fp);
-?>
+        <p><img src="image.php?img=plakat01.jpg"></p>
 	</body>
 </html>
