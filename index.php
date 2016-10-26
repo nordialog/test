@@ -9,6 +9,7 @@
     <p>Trur eg, heilt sikkert..., kanskje, eller?</p>
     <p>Dette funker faktisk, tenk det!!</p>
         <?php
+            use google\appengine\api\cloud_storage\CloudStorageTools;
 $newFileContent = "Jane Doe\n";
 file_put_contents("gs://${ubuntu-storage}/hello.txt", $newFileContent);
 ?>
