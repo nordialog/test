@@ -11,6 +11,6 @@ ini_set('display_errors', 1);
     	<h1>Dritbra, der funker det fjell!</h1>
     <p>Trur eg, heilt sikkert..., kanskje, eller?</p>
     <p>Dette funker faktisk, tenk det!!</p>
-        <p><img src="storage/plakat01.jpg"></p>
+        <p><img src="storage/plakat01.jpg" style="width:450px;height:auto;"></p>
 	</body>
 </html>
