@@ -9,12 +9,8 @@
     <p>Trur eg, heilt sikkert..., kanskje, eller?</p>
     <p>Dette funker faktisk, tenk det!!</p>
         <?php
-$myfile = fopen("text/newfile.txt", "w") or die("Unable to open file!");
-$txt = "John Doe\n";
-fwrite($myfile, $txt);
-$txt = "Jane Doe\n";
-fwrite($myfile, $txt);
-fclose($myfile);
+$newFileContent = "Jane Doe\n";
+file_put_contents("gs://${ubuntu-storage}/hello.txt", $newFileContent);
 ?>
 	</body>
 </html>
