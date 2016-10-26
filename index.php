@@ -14,7 +14,7 @@ ini_set('display_errors', 1);
         <?php
             use google\appengine\api\cloud_storage\CloudStorageTools;
             $newFileContent = "yes, this is good";
-            $fp = fopen("gs://ubuntu-storage/hello_stream.txt", 'w');
+            $fp = fopen("gs://${ubuntu-storage}/hello_stream.txt", 'w');
 fwrite($fp, $newFileContent);
 fclose($fp);
 ?>
