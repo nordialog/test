@@ -11,9 +11,6 @@ ini_set('display_errors', 1);
     	<h1>Dritbra, der funker det fjell!</h1>
     <p>Trur eg, heilt sikkert..., kanskje, eller?</p>
     <p>Dette funker faktisk, tenk det!!</p>
-        <?php 
-            readfile("/mnt/helge/plakat01.jpg");
-echo file_get_contents($file); 
-            ?>
+        <p><img src="storage/plakat01.jpg"></p>
 	</body>
 </html>
